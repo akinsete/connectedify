@@ -1,0 +1,30 @@
+<resources>
+<string name="app_name">Connectedify</string>
+<string name="app_des">Connect People</string>
+<string name="app_des_sec">Ready to explore?</string>
+<string name="app_about">Our mission is to connect people with the places in which they spend their time.</string>
+
+<string name="navigation_drawer_open">Open navigation drawer</string>
+<string name="navigation_drawer_close">Close navigation drawer</string>
+
+<string name="action_settings">Settings</string>
+
+<string name="facebook_app_id">826866017449961</string>
+<string name="fb_login_protocol_scheme">fb826866017449961</string>
+
+<!--log/access-->
+<string name="not_ready">Not ready to Sign Up?</string>
+<string name="not_ready_explore">Explore the app</string>
+<string name="loading">Loading...</string>
+
+<string name="request_permission">This sample needs camera permission.</string>
+<string name="camera_error">This device doesn\'t support Camera2 API.</string>
+<string name="intro_message"> This sample demonstrates the basic use of Camera2 API. Check the source code to see how             you can display camera preview and take pictures.  </string>
+<string name="permission_storage_rationale">Storage permission is needed to show the camera preview.</string>
+
+<string name="button_allow">Allow</string>
+<string name="button_deny">Deny</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+<string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

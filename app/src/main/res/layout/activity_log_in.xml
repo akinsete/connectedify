@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/logRelativeLayoutHolder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/con_bg" />
+
+    <RelativeLayout
+        android:id="@+id/loginRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:id="@+id/loginformRelativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/input"
+                    android:ellipsize="start"
+                    android:ems="10"
+                    android:textColorHint="@color/white"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:padding="@dimen/text_field_padding"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_field" />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/input"
+                    android:ellipsize="start"
+                    android:ems="10"
+                    android:textColorHint="@color/white"
+                    android:hint="Phone Number"
+                    android:inputType="textEmailAddress"
+                    android:padding="@dimen/text_field_padding"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_field" />
+
+                <TextView
+                    android:id="@+id/login_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/regPassword"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/button_fill_full"
+                    android:padding="12dp"
+                    android:text="Log In"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginBottom="120dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/notSure"
+                android:layout_marginLeft="5dp"
+                android:layout_toEndOf="@+id/notSure"
+                android:clickable="true"
+                android:text="Forgot Password?"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
